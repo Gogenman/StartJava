@@ -14,11 +14,11 @@ public class MyFirstGame {
                 
             if (userNumber > unknownNumber) {
                 System.out.println("Моё число меньше.");
-            } else if (userNumber < unknownNumber) {
+            } else {
                 System.out.println("Моё число больше.");
             } 
         }while (userNumber != unknownNumber);
-        
+
         System.out.println("Вы угадали!");
     }
 }
