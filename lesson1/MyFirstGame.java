@@ -16,10 +16,8 @@ public class MyFirstGame {
                 System.out.println("Моё число меньше.");
             } else if (userNumber < unknownNumber) {
                 System.out.println("Моё число больше.");
-            } else {
-                System.out.println("Это не число!");
             }
-        }while (userNumber != unknownNumber);
+        } while (userNumber != unknownNumber);
         System.out.println("Вы угадали!");
     }
 }
