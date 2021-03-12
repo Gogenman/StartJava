@@ -6,15 +6,14 @@ public class Person {
     int age = 34;
 
     boolean sit() {
-
     }
+
     void move() {
-
     }
+
     void talk() {
-
     }
+    
     void learnJava() {
-
     }
 }
