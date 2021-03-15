@@ -1,24 +1,24 @@
 public class Wolf {
-    String wolfName;
-    String wolfColor;
-    float wolfWeight;
-    float wolfHight;
+    String name;
+    String color;
+    float weight;
+    float hight;
 
     boolean sit() {
-        System.out.println("Вы присели");
+        System.out.println("Волк присел");
         return true;
     }
 
     boolean howl() {
-        System.out.println("Вы завыли на луну");
+        System.out.println("Волк завыл на луну");
         return true;
     }
 
     void run() {
-        System.out.println("Вы пробежали 1 км");
+        System.out.println("Волк пробежал 1 км");
     }
 
     void hunt() {
-        System.out.println("Вы загрызли одного зайца");
+        System.out.println("Волк загрыз одного зайца");
     }
 }
