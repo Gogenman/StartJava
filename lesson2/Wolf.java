@@ -1,9 +1,9 @@
 public class Wolf {
-    private String name = "Grey Wolf";
-    private String color = "Grey";
-    private int age = 9;
-    private float weight = 67.5f;
-    private float hight = 84.3f;
+    private String name;
+    private String color;
+    private int age;
+    private float weight;
+    private float hight;
 
     public String getName() {
         return name;
@@ -13,7 +13,7 @@ public class Wolf {
         if(name == "") {
             System.out.println("Пустая строка");
         } else {
-            this.name = "hip";
+            this.name = name;
         }
     }
 
