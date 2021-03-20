@@ -28,7 +28,7 @@ public class Calculator {
         this.sign = sign;
     }
 
-    public void calc() {
+    public void calculate() {
         switch(sign) {
             case '+':
                 result = num1 + num2;
@@ -46,11 +46,10 @@ public class Calculator {
                 result = num1 % num2;
                 break;
             case '^':
-                int power = 1;
+                double result = 1;
                 while (num2 != 0) {
-                    power *= num1;
+                    result *= num1;
                     --num2;
-                    result = power;
                 }
                 break;
             default:
